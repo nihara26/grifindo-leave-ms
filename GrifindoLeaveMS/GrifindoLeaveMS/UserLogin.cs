@@ -31,5 +31,19 @@ namespace GrifindoLeaveMS
                 Application.Exit();
             }
         }
+
+        private void btnAdmin_Click(object sender, EventArgs e)
+        {
+            FrmAdmin A = new FrmAdmin();
+            this.Hide();
+            A.Show();
+        }
+
+        private void btnEmployee_Click(object sender, EventArgs e)
+        {
+            FrmEmployee E = new FrmEmployee();
+            this.Hide();
+            E.Show();
+        }
     }
 }
