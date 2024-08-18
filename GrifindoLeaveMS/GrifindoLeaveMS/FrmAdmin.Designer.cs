@@ -78,6 +78,7 @@
             this.txtApw.Name = "txtApw";
             this.txtApw.Size = new System.Drawing.Size(258, 27);
             this.txtApw.TabIndex = 6;
+            this.txtApw.UseSystemPasswordChar = true;
             // 
             // label3
             // 
@@ -103,16 +104,16 @@
             // 
             // btnALogin
             // 
-            this.btnALogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(96)))), ((int)(((byte)(210)))));
-            this.btnALogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnALogin.BackColor = System.Drawing.Color.White;
             this.btnALogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnALogin.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnALogin.ForeColor = System.Drawing.SystemColors.WindowText;
             this.btnALogin.Location = new System.Drawing.Point(308, 368);
             this.btnALogin.Name = "btnALogin";
             this.btnALogin.Size = new System.Drawing.Size(148, 42);
             this.btnALogin.TabIndex = 9;
             this.btnALogin.Text = "LOGIN";
             this.btnALogin.UseVisualStyleBackColor = false;
+            this.btnALogin.Click += new System.EventHandler(this.btnALogin_Click);
             // 
             // btnBack
             // 
