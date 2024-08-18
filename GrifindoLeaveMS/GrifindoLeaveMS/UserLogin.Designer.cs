@@ -65,7 +65,6 @@
             // 
             this.btnEmployee.BackgroundImage = global::GrifindoLeaveMS.Properties.Resources.employee_pic;
             this.btnEmployee.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnEmployee.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnEmployee.Font = new System.Drawing.Font("Microsoft YaHei", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEmployee.Location = new System.Drawing.Point(135, 166);
             this.btnEmployee.Name = "btnEmployee";
@@ -89,7 +88,6 @@
             // 
             this.btnAdmin.BackgroundImage = global::GrifindoLeaveMS.Properties.Resources.admin_pic;
             this.btnAdmin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnAdmin.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnAdmin.Font = new System.Drawing.Font("Microsoft YaHei", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAdmin.Location = new System.Drawing.Point(107, 164);
             this.btnAdmin.Name = "btnAdmin";
