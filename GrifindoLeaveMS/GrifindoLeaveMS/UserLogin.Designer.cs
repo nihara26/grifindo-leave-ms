@@ -72,6 +72,7 @@
             this.btnEmployee.Size = new System.Drawing.Size(217, 168);
             this.btnEmployee.TabIndex = 5;
             this.btnEmployee.UseVisualStyleBackColor = true;
+            this.btnEmployee.Click += new System.EventHandler(this.btnEmployee_Click);
             // 
             // label1
             // 
@@ -95,6 +96,7 @@
             this.btnAdmin.Size = new System.Drawing.Size(217, 168);
             this.btnAdmin.TabIndex = 4;
             this.btnAdmin.UseVisualStyleBackColor = true;
+            this.btnAdmin.Click += new System.EventHandler(this.btnAdmin_Click);
             // 
             // label3
             // 
