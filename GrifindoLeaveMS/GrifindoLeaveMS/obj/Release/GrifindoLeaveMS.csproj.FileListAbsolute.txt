@@ -8,3 +8,5 @@ D:\GitHub\grifindo-leave-ms\GrifindoLeaveMS\GrifindoLeaveMS\obj\Release\Grifindo
 D:\GitHub\grifindo-leave-ms\GrifindoLeaveMS\GrifindoLeaveMS\obj\Release\GrifindoLeaveMS.exe
 D:\GitHub\grifindo-leave-ms\GrifindoLeaveMS\GrifindoLeaveMS\obj\Release\GrifindoLeaveMS.pdb
 D:\GitHub\grifindo-leave-ms\GrifindoLeaveMS\GrifindoLeaveMS\obj\Release\GrifindoLeaveMS.UserLogin.resources
+D:\GitHub\grifindo-leave-ms\GrifindoLeaveMS\GrifindoLeaveMS\obj\Release\GrifindoLeaveMS.FrmAdmin.resources
+D:\GitHub\grifindo-leave-ms\GrifindoLeaveMS\GrifindoLeaveMS\obj\Release\GrifindoLeaveMS.FrmEmployee.resources
