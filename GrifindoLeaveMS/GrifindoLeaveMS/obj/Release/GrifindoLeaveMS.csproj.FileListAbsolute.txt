@@ -1,0 +1,10 @@
+D:\GitHub\grifindo-leave-ms\GrifindoLeaveMS\GrifindoLeaveMS\bin\Release\GrifindoLeaveMS.exe.config
+D:\GitHub\grifindo-leave-ms\GrifindoLeaveMS\GrifindoLeaveMS\bin\Release\GrifindoLeaveMS.exe
+D:\GitHub\grifindo-leave-ms\GrifindoLeaveMS\GrifindoLeaveMS\bin\Release\GrifindoLeaveMS.pdb
+D:\GitHub\grifindo-leave-ms\GrifindoLeaveMS\GrifindoLeaveMS\obj\Release\GrifindoLeaveMS.csproj.AssemblyReference.cache
+D:\GitHub\grifindo-leave-ms\GrifindoLeaveMS\GrifindoLeaveMS\obj\Release\GrifindoLeaveMS.Properties.Resources.resources
+D:\GitHub\grifindo-leave-ms\GrifindoLeaveMS\GrifindoLeaveMS\obj\Release\GrifindoLeaveMS.csproj.GenerateResource.cache
+D:\GitHub\grifindo-leave-ms\GrifindoLeaveMS\GrifindoLeaveMS\obj\Release\GrifindoLeaveMS.csproj.CoreCompileInputs.cache
+D:\GitHub\grifindo-leave-ms\GrifindoLeaveMS\GrifindoLeaveMS\obj\Release\GrifindoLeaveMS.exe
+D:\GitHub\grifindo-leave-ms\GrifindoLeaveMS\GrifindoLeaveMS\obj\Release\GrifindoLeaveMS.pdb
+D:\GitHub\grifindo-leave-ms\GrifindoLeaveMS\GrifindoLeaveMS\obj\Release\GrifindoLeaveMS.UserLogin.resources
