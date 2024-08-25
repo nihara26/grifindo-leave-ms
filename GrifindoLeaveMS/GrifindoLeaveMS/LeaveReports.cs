@@ -16,5 +16,12 @@ namespace GrifindoLeaveMS
         {
             InitializeComponent();
         }
+
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+            A_Dashboard AD = new A_Dashboard();
+            this.Hide();
+            AD.Show();
+        }
     }
 }

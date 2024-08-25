@@ -39,6 +39,7 @@
             this.TimePickerEndDateLR = new System.Windows.Forms.DateTimePicker();
             this.label3 = new System.Windows.Forms.Label();
             this.btnBack = new System.Windows.Forms.Button();
+            this.btnViewAll = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridDefineR)).BeginInit();
             this.SuspendLayout();
             // 
@@ -146,6 +147,19 @@
             this.btnBack.Size = new System.Drawing.Size(48, 44);
             this.btnBack.TabIndex = 62;
             this.btnBack.UseVisualStyleBackColor = false;
+            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
+            // 
+            // btnViewAll
+            // 
+            this.btnViewAll.BackColor = System.Drawing.Color.White;
+            this.btnViewAll.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnViewAll.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.btnViewAll.Location = new System.Drawing.Point(808, 260);
+            this.btnViewAll.Name = "btnViewAll";
+            this.btnViewAll.Size = new System.Drawing.Size(147, 48);
+            this.btnViewAll.TabIndex = 69;
+            this.btnViewAll.Text = "View All";
+            this.btnViewAll.UseVisualStyleBackColor = false;
             // 
             // LeaveReports
             // 
@@ -153,6 +167,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(221)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(1044, 582);
+            this.Controls.Add(this.btnViewAll);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.TimePickerEndDateLR);
@@ -182,5 +197,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.DateTimePicker TimePickerEndDateLR;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button btnViewAll;
     }
 }

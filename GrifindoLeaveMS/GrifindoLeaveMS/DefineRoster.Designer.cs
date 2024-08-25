@@ -149,9 +149,9 @@
             this.label2.Location = new System.Drawing.Point(421, 206);
             this.label2.Margin = new System.Windows.Forms.Padding(0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(107, 20);
+            this.label2.Size = new System.Drawing.Size(84, 20);
             this.label2.TabIndex = 54;
-            this.label2.Text = "Starting Time";
+            this.label2.Text = "Start Time";
             // 
             // btnBack
             // 
@@ -165,6 +165,7 @@
             this.btnBack.Size = new System.Drawing.Size(48, 44);
             this.btnBack.TabIndex = 49;
             this.btnBack.UseVisualStyleBackColor = false;
+            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
             // mtbStartTimeDR
             // 

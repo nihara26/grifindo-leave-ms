@@ -21,5 +21,12 @@ namespace GrifindoLeaveMS
         {
 
         }
+
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+            E_Dashboard ED = new E_Dashboard();
+            this.Hide();
+            ED.Show();
+        }
     }
 }

@@ -82,6 +82,7 @@
             this.txtEpw.Name = "txtEpw";
             this.txtEpw.Size = new System.Drawing.Size(258, 27);
             this.txtEpw.TabIndex = 14;
+            this.txtEpw.UseSystemPasswordChar = true;
             // 
             // txtEuser
             // 

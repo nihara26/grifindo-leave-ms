@@ -57,12 +57,13 @@
             this.btnBack.Size = new System.Drawing.Size(48, 44);
             this.btnBack.TabIndex = 50;
             this.btnBack.UseVisualStyleBackColor = false;
+            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(476, 40);
+            this.label1.Location = new System.Drawing.Point(494, 40);
             this.label1.Margin = new System.Windows.Forms.Padding(0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(145, 27);
@@ -191,7 +192,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(255)))));
-            this.ClientSize = new System.Drawing.Size(1135, 451);
+            this.ClientSize = new System.Drawing.Size(1150, 451);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.txtsearch);
             this.Controls.Add(this.label6);

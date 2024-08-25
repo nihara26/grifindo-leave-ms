@@ -51,5 +51,12 @@ namespace GrifindoLeaveMS
             this.Hide();
             LR.Show();
         }
+
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+            UserLogin U = new UserLogin();
+            this.Hide();
+            U.Show();
+        }
     }
 }
