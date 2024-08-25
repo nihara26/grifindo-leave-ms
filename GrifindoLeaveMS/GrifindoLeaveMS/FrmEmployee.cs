@@ -23,5 +23,31 @@ namespace GrifindoLeaveMS
             this.Hide();
             U.Show();
         }
+
+        private void btnELogin_Click(object sender, EventArgs e)
+        {
+            // Check if username or password text boxes are empty
+            if (string.IsNullOrWhiteSpace(txtEuser.Text) || string.IsNullOrWhiteSpace(txtEpw.Text))
+            {
+                MessageBox.Show("Username and password are required.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return; // Exit the method
+            }
+
+            // Valid username and password
+            string username = "employee";
+            string password = "12345";
+
+            if (username == txtEuser.Text && password == txtEpw.Text)
+            {
+                MessageBox.Show("Login successful. Welcome!", "Successful", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                E_Dashboard ED = new E_Dashboard();
+                this.Hide();
+                ED.Show();
+            }
+            else
+            {
+                MessageBox.Show("Invalid username or password. Please try again.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+        }
     }
 }

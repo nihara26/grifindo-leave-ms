@@ -48,6 +48,7 @@
             this.btn_AddEmp.TabIndex = 0;
             this.btn_AddEmp.Text = "Add Employee";
             this.btn_AddEmp.UseVisualStyleBackColor = true;
+            this.btn_AddEmp.Click += new System.EventHandler(this.btn_AddEmp_Click);
             // 
             // label1
             // 
@@ -69,6 +70,7 @@
             this.btn_DefineLeaves.TabIndex = 13;
             this.btn_DefineLeaves.Text = "Define Leaves";
             this.btn_DefineLeaves.UseVisualStyleBackColor = true;
+            this.btn_DefineLeaves.Click += new System.EventHandler(this.btn_DefineLeaves_Click);
             // 
             // btn_DefineRoster
             // 
@@ -79,6 +81,7 @@
             this.btn_DefineRoster.TabIndex = 14;
             this.btn_DefineRoster.Text = "Define Roster";
             this.btn_DefineRoster.UseVisualStyleBackColor = true;
+            this.btn_DefineRoster.Click += new System.EventHandler(this.btn_DefineRoster_Click);
             // 
             // btn_ManageLeaves
             // 
@@ -89,6 +92,7 @@
             this.btn_ManageLeaves.TabIndex = 15;
             this.btn_ManageLeaves.Text = "Manage Leaves";
             this.btn_ManageLeaves.UseVisualStyleBackColor = true;
+            this.btn_ManageLeaves.Click += new System.EventHandler(this.btn_ManageLeaves_Click);
             // 
             // btn_LeavesReports
             // 
@@ -99,6 +103,7 @@
             this.btn_LeavesReports.TabIndex = 16;
             this.btn_LeavesReports.Text = "Leave Reports";
             this.btn_LeavesReports.UseVisualStyleBackColor = true;
+            this.btn_LeavesReports.Click += new System.EventHandler(this.btn_LeavesReports_Click);
             // 
             // btnBack
             // 

@@ -16,5 +16,40 @@ namespace GrifindoLeaveMS
         {
             InitializeComponent();
         }
+
+        private void btn_AddEmp_Click(object sender, EventArgs e)
+        {
+            Add_Emp AE= new Add_Emp();
+            this.Hide();
+            AE.Show();
+        }
+
+        private void btn_DefineLeaves_Click(object sender, EventArgs e)
+        {
+            DefineLeaves DL = new DefineLeaves();
+            this.Hide();
+            DL.Show();
+        }
+
+        private void btn_DefineRoster_Click(object sender, EventArgs e)
+        {
+            DefineRoster DR = new DefineRoster();
+            this.Hide();
+            DR.Show();
+        }
+
+        private void btn_ManageLeaves_Click(object sender, EventArgs e)
+        {
+            ManageLeaves ML = new ManageLeaves();
+            this.Hide();
+            ML.Show();
+        }
+
+        private void btn_LeavesReports_Click(object sender, EventArgs e)
+        {
+            LeaveReports LR = new LeaveReports();
+            this.Hide();
+            LR.Show();
+        }
     }
 }
