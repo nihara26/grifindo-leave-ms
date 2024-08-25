@@ -46,11 +46,47 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Add_Emp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_Emp.Designer.cs">
+      <DependentUpon>Add_Emp.cs</DependentUpon>
+    </Compile>
     <Compile Include="A_Dashboard.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="A_Dashboard.Designer.cs">
       <DependentUpon>A_Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DefineLeaves.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DefineLeaves.Designer.cs">
+      <DependentUpon>DefineLeaves.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DefineRoster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DefineRoster.Designer.cs">
+      <DependentUpon>DefineRoster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EApplyLeave.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EApplyLeave.Designer.cs">
+      <DependentUpon>EApplyLeave.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ELeaveReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ELeaveReport.Designer.cs">
+      <DependentUpon>ELeaveReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ELeaveStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ELeaveStatus.Designer.cs">
+      <DependentUpon>ELeaveStatus.cs</DependentUpon>
     </Compile>
     <Compile Include="E_Dashboard.cs">
       <SubType>Form</SubType>
@@ -63,6 +99,18 @@
     </Compile>
     <Compile Include="FrmEmployee.Designer.cs">
       <DependentUpon>FrmEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LeaveReports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LeaveReports.Designer.cs">
+      <DependentUpon>LeaveReports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManageLeaves.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageLeaves.Designer.cs">
+      <DependentUpon>ManageLeaves.cs</DependentUpon>
     </Compile>
     <Compile Include="UserLogin.cs">
       <SubType>Form</SubType>
@@ -78,8 +126,26 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Add_Emp.resx">
+      <DependentUpon>Add_Emp.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="A_Dashboard.resx">
       <DependentUpon>A_Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DefineLeaves.resx">
+      <DependentUpon>DefineLeaves.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DefineRoster.resx">
+      <DependentUpon>DefineRoster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EApplyLeave.resx">
+      <DependentUpon>EApplyLeave.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ELeaveReport.resx">
+      <DependentUpon>ELeaveReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ELeaveStatus.resx">
+      <DependentUpon>ELeaveStatus.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="E_Dashboard.resx">
       <DependentUpon>E_Dashboard.cs</DependentUpon>
@@ -89,6 +155,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmEmployee.resx">
       <DependentUpon>FrmEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LeaveReports.resx">
+      <DependentUpon>LeaveReports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageLeaves.resx">
+      <DependentUpon>ManageLeaves.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserLogin.resx">
       <DependentUpon>UserLogin.cs</DependentUpon>

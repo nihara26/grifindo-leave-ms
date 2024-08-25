@@ -3,28 +3,56 @@
   "WorkspaceRootPath": "D:\\GitHub\\grifindo-leave-ms\\GrifindoLeaveMS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0D972589-5E86-4895-AE07-DDAD2F548CF1}|GrifindoLeaveMS\\GrifindoLeaveMS.csproj|D:\\GitHub\\grifindo-leave-ms\\GrifindoLeaveMS\\grifindoleavems\\e_dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0D972589-5E86-4895-AE07-DDAD2F548CF1}|GrifindoLeaveMS\\GrifindoLeaveMS.csproj|solutionrelative:grifindoleavems\\e_dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{0D972589-5E86-4895-AE07-DDAD2F548CF1}|GrifindoLeaveMS\\GrifindoLeaveMS.csproj|d:\\github\\grifindo-leave-ms\\grifindoleavems\\grifindoleavems\\eleavereport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D972589-5E86-4895-AE07-DDAD2F548CF1}|GrifindoLeaveMS\\GrifindoLeaveMS.csproj|solutionrelative:grifindoleavems\\eleavereport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D972589-5E86-4895-AE07-DDAD2F548CF1}|GrifindoLeaveMS\\GrifindoLeaveMS.csproj|d:\\github\\grifindo-leave-ms\\grifindoleavems\\grifindoleavems\\a_dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0D972589-5E86-4895-AE07-DDAD2F548CF1}|GrifindoLeaveMS\\GrifindoLeaveMS.csproj|solutionrelative:grifindoleavems\\a_dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{0D972589-5E86-4895-AE07-DDAD2F548CF1}|GrifindoLeaveMS\\GrifindoLeaveMS.csproj|d:\\github\\grifindo-leave-ms\\grifindoleavems\\grifindoleavems\\eapplyleave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D972589-5E86-4895-AE07-DDAD2F548CF1}|GrifindoLeaveMS\\GrifindoLeaveMS.csproj|solutionrelative:grifindoleavems\\eapplyleave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D972589-5E86-4895-AE07-DDAD2F548CF1}|GrifindoLeaveMS\\GrifindoLeaveMS.csproj|D:\\GitHub\\grifindo-leave-ms\\GrifindoLeaveMS\\grifindoleavems\\frmemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0D972589-5E86-4895-AE07-DDAD2F548CF1}|GrifindoLeaveMS\\GrifindoLeaveMS.csproj|solutionrelative:grifindoleavems\\frmemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{0D972589-5E86-4895-AE07-DDAD2F548CF1}|GrifindoLeaveMS\\GrifindoLeaveMS.csproj|d:\\github\\grifindo-leave-ms\\grifindoleavems\\grifindoleavems\\eleavestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D972589-5E86-4895-AE07-DDAD2F548CF1}|GrifindoLeaveMS\\GrifindoLeaveMS.csproj|solutionrelative:grifindoleavems\\eleavestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D972589-5E86-4895-AE07-DDAD2F548CF1}|GrifindoLeaveMS\\GrifindoLeaveMS.csproj|D:\\GitHub\\grifindo-leave-ms\\GrifindoLeaveMS\\grifindoleavems\\frmadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0D972589-5E86-4895-AE07-DDAD2F548CF1}|GrifindoLeaveMS\\GrifindoLeaveMS.csproj|solutionrelative:grifindoleavems\\frmadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{0D972589-5E86-4895-AE07-DDAD2F548CF1}|GrifindoLeaveMS\\GrifindoLeaveMS.csproj|d:\\github\\grifindo-leave-ms\\grifindoleavems\\grifindoleavems\\eapplyleave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D972589-5E86-4895-AE07-DDAD2F548CF1}|GrifindoLeaveMS\\GrifindoLeaveMS.csproj|solutionrelative:grifindoleavems\\eapplyleave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D972589-5E86-4895-AE07-DDAD2F548CF1}|GrifindoLeaveMS\\GrifindoLeaveMS.csproj|d:\\github\\grifindo-leave-ms\\grifindoleavems\\grifindoleavems\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0D972589-5E86-4895-AE07-DDAD2F548CF1}|GrifindoLeaveMS\\GrifindoLeaveMS.csproj|d:\\github\\grifindo-leave-ms\\grifindoleavems\\grifindoleavems\\manageleaves.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D972589-5E86-4895-AE07-DDAD2F548CF1}|GrifindoLeaveMS\\GrifindoLeaveMS.csproj|solutionrelative:grifindoleavems\\manageleaves.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D972589-5E86-4895-AE07-DDAD2F548CF1}|GrifindoLeaveMS\\GrifindoLeaveMS.csproj|d:\\github\\grifindo-leave-ms\\grifindoleavems\\grifindoleavems\\leavereports.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D972589-5E86-4895-AE07-DDAD2F548CF1}|GrifindoLeaveMS\\GrifindoLeaveMS.csproj|solutionrelative:grifindoleavems\\leavereports.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D972589-5E86-4895-AE07-DDAD2F548CF1}|GrifindoLeaveMS\\GrifindoLeaveMS.csproj|d:\\github\\grifindo-leave-ms\\grifindoleavems\\grifindoleavems\\defineroster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D972589-5E86-4895-AE07-DDAD2F548CF1}|GrifindoLeaveMS\\GrifindoLeaveMS.csproj|solutionrelative:grifindoleavems\\defineroster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D972589-5E86-4895-AE07-DDAD2F548CF1}|GrifindoLeaveMS\\GrifindoLeaveMS.csproj|d:\\github\\grifindo-leave-ms\\grifindoleavems\\grifindoleavems\\defineleaves.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D972589-5E86-4895-AE07-DDAD2F548CF1}|GrifindoLeaveMS\\GrifindoLeaveMS.csproj|solutionrelative:grifindoleavems\\defineleaves.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D972589-5E86-4895-AE07-DDAD2F548CF1}|GrifindoLeaveMS\\GrifindoLeaveMS.csproj|d:\\github\\grifindo-leave-ms\\grifindoleavems\\grifindoleavems\\add_emp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D972589-5E86-4895-AE07-DDAD2F548CF1}|GrifindoLeaveMS\\GrifindoLeaveMS.csproj|solutionrelative:grifindoleavems\\add_emp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D972589-5E86-4895-AE07-DDAD2F548CF1}|GrifindoLeaveMS\\GrifindoLeaveMS.csproj|D:\\GitHub\\grifindo-leave-ms\\GrifindoLeaveMS\\grifindoleavems\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0D972589-5E86-4895-AE07-DDAD2F548CF1}|GrifindoLeaveMS\\GrifindoLeaveMS.csproj|solutionrelative:grifindoleavems\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D972589-5E86-4895-AE07-DDAD2F548CF1}|GrifindoLeaveMS\\GrifindoLeaveMS.csproj|D:\\GitHub\\grifindo-leave-ms\\GrifindoLeaveMS\\grifindoleavems\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0D972589-5E86-4895-AE07-DDAD2F548CF1}|GrifindoLeaveMS\\GrifindoLeaveMS.csproj|solutionrelative:grifindoleavems\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{0D972589-5E86-4895-AE07-DDAD2F548CF1}|GrifindoLeaveMS\\GrifindoLeaveMS.csproj|d:\\github\\grifindo-leave-ms\\grifindoleavems\\grifindoleavems\\e_dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D972589-5E86-4895-AE07-DDAD2F548CF1}|GrifindoLeaveMS\\GrifindoLeaveMS.csproj|solutionrelative:grifindoleavems\\e_dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D972589-5E86-4895-AE07-DDAD2F548CF1}|GrifindoLeaveMS\\GrifindoLeaveMS.csproj|D:\\GitHub\\grifindo-leave-ms\\GrifindoLeaveMS\\grifindoleavems\\a_dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D972589-5E86-4895-AE07-DDAD2F548CF1}|GrifindoLeaveMS\\GrifindoLeaveMS.csproj|solutionrelative:grifindoleavems\\a_dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D972589-5E86-4895-AE07-DDAD2F548CF1}|GrifindoLeaveMS\\GrifindoLeaveMS.csproj|d:\\github\\grifindo-leave-ms\\grifindoleavems\\grifindoleavems\\a_dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D972589-5E86-4895-AE07-DDAD2F548CF1}|GrifindoLeaveMS\\GrifindoLeaveMS.csproj|solutionrelative:grifindoleavems\\a_dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,50 +62,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserLogin.cs [Design]",
-              "DocumentMoniker": "D:\\GitHub\\grifindo-leave-ms\\GrifindoLeaveMS\\GrifindoLeaveMS\\UserLogin.cs",
-              "RelativeDocumentMoniker": "GrifindoLeaveMS\\UserLogin.cs",
-              "ToolTip": "D:\\GitHub\\grifindo-leave-ms\\GrifindoLeaveMS\\GrifindoLeaveMS\\UserLogin.cs [Design]",
-              "RelativeToolTip": "GrifindoLeaveMS\\UserLogin.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-18T15:04:52.641Z",
-              "IsPinned": true,
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FrmAdmin.cs [Design]",
-              "DocumentMoniker": "D:\\GitHub\\grifindo-leave-ms\\GrifindoLeaveMS\\GrifindoLeaveMS\\FrmAdmin.cs",
-              "RelativeDocumentMoniker": "GrifindoLeaveMS\\FrmAdmin.cs",
-              "ToolTip": "D:\\GitHub\\grifindo-leave-ms\\GrifindoLeaveMS\\GrifindoLeaveMS\\FrmAdmin.cs [Design]",
-              "RelativeToolTip": "GrifindoLeaveMS\\FrmAdmin.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-18T16:12:23.957Z",
-              "IsPinned": true,
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FrmEmployee.cs [Design]",
-              "DocumentMoniker": "D:\\GitHub\\grifindo-leave-ms\\GrifindoLeaveMS\\GrifindoLeaveMS\\FrmEmployee.cs",
-              "RelativeDocumentMoniker": "GrifindoLeaveMS\\FrmEmployee.cs",
-              "ToolTip": "D:\\GitHub\\grifindo-leave-ms\\GrifindoLeaveMS\\GrifindoLeaveMS\\FrmEmployee.cs [Design]",
-              "RelativeToolTip": "GrifindoLeaveMS\\FrmEmployee.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-18T16:23:14.514Z",
-              "IsPinned": true,
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "A_Dashboard.cs [Design]",
               "DocumentMoniker": "D:\\GitHub\\grifindo-leave-ms\\GrifindoLeaveMS\\GrifindoLeaveMS\\A_Dashboard.cs",
               "RelativeDocumentMoniker": "GrifindoLeaveMS\\A_Dashboard.cs",
@@ -90,7 +79,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 10,
               "Title": "E_Dashboard.cs [Design]",
               "DocumentMoniker": "D:\\GitHub\\grifindo-leave-ms\\GrifindoLeaveMS\\GrifindoLeaveMS\\E_Dashboard.cs",
               "RelativeDocumentMoniker": "GrifindoLeaveMS\\E_Dashboard.cs",
@@ -103,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\GitHub\\grifindo-leave-ms\\GrifindoLeaveMS\\GrifindoLeaveMS\\Program.cs",
               "RelativeDocumentMoniker": "GrifindoLeaveMS\\Program.cs",
@@ -113,6 +102,136 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-18T17:24:29.459Z",
               "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Add_Emp.cs [Design]",
+              "DocumentMoniker": "D:\\GitHub\\grifindo-leave-ms\\GrifindoLeaveMS\\GrifindoLeaveMS\\Add_Emp.cs",
+              "RelativeDocumentMoniker": "GrifindoLeaveMS\\Add_Emp.cs",
+              "ToolTip": "D:\\GitHub\\grifindo-leave-ms\\GrifindoLeaveMS\\GrifindoLeaveMS\\Add_Emp.cs [Design]",
+              "RelativeToolTip": "GrifindoLeaveMS\\Add_Emp.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T11:38:30.962Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DefineLeaves.cs [Design]",
+              "DocumentMoniker": "D:\\GitHub\\grifindo-leave-ms\\GrifindoLeaveMS\\GrifindoLeaveMS\\DefineLeaves.cs",
+              "RelativeDocumentMoniker": "GrifindoLeaveMS\\DefineLeaves.cs",
+              "ToolTip": "D:\\GitHub\\grifindo-leave-ms\\GrifindoLeaveMS\\GrifindoLeaveMS\\DefineLeaves.cs [Design]",
+              "RelativeToolTip": "GrifindoLeaveMS\\DefineLeaves.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T12:02:06.926Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DefineRoster.cs [Design]",
+              "DocumentMoniker": "D:\\GitHub\\grifindo-leave-ms\\GrifindoLeaveMS\\GrifindoLeaveMS\\DefineRoster.cs",
+              "RelativeDocumentMoniker": "GrifindoLeaveMS\\DefineRoster.cs",
+              "ToolTip": "D:\\GitHub\\grifindo-leave-ms\\GrifindoLeaveMS\\GrifindoLeaveMS\\DefineRoster.cs [Design]",
+              "RelativeToolTip": "GrifindoLeaveMS\\DefineRoster.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T12:17:24.441Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LeaveReports.cs [Design]",
+              "DocumentMoniker": "D:\\GitHub\\grifindo-leave-ms\\GrifindoLeaveMS\\GrifindoLeaveMS\\LeaveReports.cs",
+              "RelativeDocumentMoniker": "GrifindoLeaveMS\\LeaveReports.cs",
+              "ToolTip": "D:\\GitHub\\grifindo-leave-ms\\GrifindoLeaveMS\\GrifindoLeaveMS\\LeaveReports.cs [Design]",
+              "RelativeToolTip": "GrifindoLeaveMS\\LeaveReports.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T12:31:26.15Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ManageLeaves.cs [Design]",
+              "DocumentMoniker": "D:\\GitHub\\grifindo-leave-ms\\GrifindoLeaveMS\\GrifindoLeaveMS\\ManageLeaves.cs",
+              "RelativeDocumentMoniker": "GrifindoLeaveMS\\ManageLeaves.cs",
+              "ToolTip": "D:\\GitHub\\grifindo-leave-ms\\GrifindoLeaveMS\\GrifindoLeaveMS\\ManageLeaves.cs [Design]",
+              "RelativeToolTip": "GrifindoLeaveMS\\ManageLeaves.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T12:24:58.601Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EApplyLeave.cs [Design]",
+              "DocumentMoniker": "D:\\GitHub\\grifindo-leave-ms\\GrifindoLeaveMS\\GrifindoLeaveMS\\EApplyLeave.cs",
+              "RelativeDocumentMoniker": "GrifindoLeaveMS\\EApplyLeave.cs",
+              "ToolTip": "D:\\GitHub\\grifindo-leave-ms\\GrifindoLeaveMS\\GrifindoLeaveMS\\EApplyLeave.cs [Design]",
+              "RelativeToolTip": "GrifindoLeaveMS\\EApplyLeave.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T12:38:30.552Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ELeaveStatus.cs [Design]",
+              "DocumentMoniker": "D:\\GitHub\\grifindo-leave-ms\\GrifindoLeaveMS\\GrifindoLeaveMS\\ELeaveStatus.cs",
+              "RelativeDocumentMoniker": "GrifindoLeaveMS\\ELeaveStatus.cs",
+              "ToolTip": "D:\\GitHub\\grifindo-leave-ms\\GrifindoLeaveMS\\GrifindoLeaveMS\\ELeaveStatus.cs [Design]",
+              "RelativeToolTip": "GrifindoLeaveMS\\ELeaveStatus.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T12:38:52.151Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ELeaveReport.cs [Design]",
+              "DocumentMoniker": "D:\\GitHub\\grifindo-leave-ms\\GrifindoLeaveMS\\GrifindoLeaveMS\\ELeaveReport.cs",
+              "RelativeDocumentMoniker": "GrifindoLeaveMS\\ELeaveReport.cs",
+              "ToolTip": "D:\\GitHub\\grifindo-leave-ms\\GrifindoLeaveMS\\GrifindoLeaveMS\\ELeaveReport.cs [Design]",
+              "RelativeToolTip": "GrifindoLeaveMS\\ELeaveReport.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T12:39:25.618Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EApplyLeave.cs",
+              "DocumentMoniker": "D:\\GitHub\\grifindo-leave-ms\\GrifindoLeaveMS\\GrifindoLeaveMS\\EApplyLeave.cs",
+              "RelativeDocumentMoniker": "GrifindoLeaveMS\\EApplyLeave.cs",
+              "ToolTip": "D:\\GitHub\\grifindo-leave-ms\\GrifindoLeaveMS\\GrifindoLeaveMS\\EApplyLeave.cs",
+              "RelativeToolTip": "GrifindoLeaveMS\\EApplyLeave.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAtwBUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T13:28:41.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "A_Dashboard.cs",
+              "DocumentMoniker": "D:\\GitHub\\grifindo-leave-ms\\GrifindoLeaveMS\\GrifindoLeaveMS\\A_Dashboard.cs",
+              "RelativeDocumentMoniker": "GrifindoLeaveMS\\A_Dashboard.cs",
+              "ToolTip": "D:\\GitHub\\grifindo-leave-ms\\GrifindoLeaveMS\\GrifindoLeaveMS\\A_Dashboard.cs",
+              "RelativeToolTip": "GrifindoLeaveMS\\A_Dashboard.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAowBUAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T11:40:44.521Z",
               "EditorCaption": ""
             }
           ]
