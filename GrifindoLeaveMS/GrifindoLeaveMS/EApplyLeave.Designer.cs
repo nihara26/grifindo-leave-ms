@@ -121,6 +121,7 @@
             this.btnBack.Size = new System.Drawing.Size(48, 44);
             this.btnBack.TabIndex = 49;
             this.btnBack.UseVisualStyleBackColor = false;
+            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
             // cmbLeaveCategory
             // 

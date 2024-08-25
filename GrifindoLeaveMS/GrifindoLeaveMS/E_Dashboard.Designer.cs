@@ -60,6 +60,7 @@
             this.btn_LeaveReport.TabIndex = 22;
             this.btn_LeaveReport.Text = "Leave Report";
             this.btn_LeaveReport.UseVisualStyleBackColor = true;
+            this.btn_LeaveReport.Click += new System.EventHandler(this.btn_LeaveReport_Click);
             // 
             // btn_LeaveStatus
             // 
@@ -70,6 +71,7 @@
             this.btn_LeaveStatus.TabIndex = 21;
             this.btn_LeaveStatus.Text = "Leave Status";
             this.btn_LeaveStatus.UseVisualStyleBackColor = true;
+            this.btn_LeaveStatus.Click += new System.EventHandler(this.btn_LeaveStatus_Click);
             // 
             // label1
             // 
@@ -91,6 +93,7 @@
             this.btn_ApplyLeave.TabIndex = 19;
             this.btn_ApplyLeave.Text = "Apply Leave";
             this.btn_ApplyLeave.UseVisualStyleBackColor = true;
+            this.btn_ApplyLeave.Click += new System.EventHandler(this.btn_ApplyLeave_Click);
             // 
             // panel1
             // 
@@ -113,6 +116,7 @@
             this.button1.Size = new System.Drawing.Size(48, 44);
             this.button1.TabIndex = 27;
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // E_Dashboard
             // 
