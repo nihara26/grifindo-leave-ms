@@ -1,2 +1,2 @@
 # grifindo-leave-ms
-Grifindo Lanka Toys - Leave Management System
+Grifindo Lanka Toys - Leave Management System(Admin)
