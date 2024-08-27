@@ -48,6 +48,7 @@
             this.btnDelete = new System.Windows.Forms.Button();
             this.dataGridAddEmp = new System.Windows.Forms.DataGridView();
             this.btnBack = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridAddEmp)).BeginInit();
             this.SuspendLayout();
             // 
@@ -124,13 +125,13 @@
             // btnAdd
             // 
             this.btnAdd.BackColor = System.Drawing.Color.White;
-            this.btnAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAdd.ForeColor = System.Drawing.SystemColors.WindowText;
             this.btnAdd.Location = new System.Drawing.Point(493, 344);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(147, 48);
+            this.btnAdd.Size = new System.Drawing.Size(103, 50);
             this.btnAdd.TabIndex = 21;
-            this.btnAdd.Text = "Add Employee";
+            this.btnAdd.Text = "Add ";
             this.btnAdd.UseVisualStyleBackColor = false;
             // 
             // label4
@@ -213,13 +214,13 @@
             // btnDelete
             // 
             this.btnDelete.BackColor = System.Drawing.Color.White;
-            this.btnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDelete.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.btnDelete.Location = new System.Drawing.Point(734, 344);
+            this.btnDelete.Location = new System.Drawing.Point(668, 344);
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(147, 48);
+            this.btnDelete.Size = new System.Drawing.Size(103, 50);
             this.btnDelete.TabIndex = 29;
-            this.btnDelete.Text = "Delete Employee";
+            this.btnDelete.Text = "Delete";
             this.btnDelete.UseVisualStyleBackColor = false;
             // 
             // dataGridAddEmp
@@ -248,12 +249,25 @@
             this.btnBack.UseVisualStyleBackColor = false;
             this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.White;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.button1.Location = new System.Drawing.Point(844, 344);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(103, 50);
+            this.button1.TabIndex = 32;
+            this.button1.Text = "View All";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
             // Add_Emp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(221)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(1048, 609);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.dataGridAddEmp);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.btnDelete);
@@ -302,5 +316,6 @@
         private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.Button btnBack;
         private System.Windows.Forms.DataGridView dataGridAddEmp;
+        private System.Windows.Forms.Button button1;
     }
 }
