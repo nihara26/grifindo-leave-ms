@@ -9,14 +9,9 @@ D:\GitHub\grifindo-leave-ms\GrifindoLeaveMS\GrifindoLeaveMS\obj\Release\Grifindo
 D:\GitHub\grifindo-leave-ms\GrifindoLeaveMS\GrifindoLeaveMS\obj\Release\GrifindoLeaveMS.pdb
 D:\GitHub\grifindo-leave-ms\GrifindoLeaveMS\GrifindoLeaveMS\obj\Release\GrifindoLeaveMS.UserLogin.resources
 D:\GitHub\grifindo-leave-ms\GrifindoLeaveMS\GrifindoLeaveMS\obj\Release\GrifindoLeaveMS.FrmAdmin.resources
-D:\GitHub\grifindo-leave-ms\GrifindoLeaveMS\GrifindoLeaveMS\obj\Release\GrifindoLeaveMS.FrmEmployee.resources
 D:\GitHub\grifindo-leave-ms\GrifindoLeaveMS\GrifindoLeaveMS\obj\Release\GrifindoLeaveMS.A_Dashboard.resources
-D:\GitHub\grifindo-leave-ms\GrifindoLeaveMS\GrifindoLeaveMS\obj\Release\GrifindoLeaveMS.E_Dashboard.resources
 D:\GitHub\grifindo-leave-ms\GrifindoLeaveMS\GrifindoLeaveMS\obj\Release\GrifindoLeaveMS.Add_Emp.resources
 D:\GitHub\grifindo-leave-ms\GrifindoLeaveMS\GrifindoLeaveMS\obj\Release\GrifindoLeaveMS.DefineLeaves.resources
 D:\GitHub\grifindo-leave-ms\GrifindoLeaveMS\GrifindoLeaveMS\obj\Release\GrifindoLeaveMS.DefineRoster.resources
 D:\GitHub\grifindo-leave-ms\GrifindoLeaveMS\GrifindoLeaveMS\obj\Release\GrifindoLeaveMS.LeaveReports.resources
 D:\GitHub\grifindo-leave-ms\GrifindoLeaveMS\GrifindoLeaveMS\obj\Release\GrifindoLeaveMS.ManageLeaves.resources
-D:\GitHub\grifindo-leave-ms\GrifindoLeaveMS\GrifindoLeaveMS\obj\Release\GrifindoLeaveMS.EApplyLeave.resources
-D:\GitHub\grifindo-leave-ms\GrifindoLeaveMS\GrifindoLeaveMS\obj\Release\GrifindoLeaveMS.ELeaveReport.resources
-D:\GitHub\grifindo-leave-ms\GrifindoLeaveMS\GrifindoLeaveMS\obj\Release\GrifindoLeaveMS.ELeaveStatus.resources

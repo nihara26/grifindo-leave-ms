@@ -38,12 +38,5 @@ namespace GrifindoLeaveMS
             this.Hide();
             A.Show();
         }
-
-        private void btnEmployee_Click(object sender, EventArgs e)
-        {
-            FrmEmployee E = new FrmEmployee();
-            this.Hide();
-            E.Show();
-        }
     }
 }
