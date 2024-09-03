@@ -35,6 +35,9 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.btnBack = new System.Windows.Forms.Button();
+            this.btnView = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txtEmpID = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridDefineR)).BeginInit();
             this.SuspendLayout();
             // 
@@ -51,24 +54,24 @@
             // 
             // btnreject
             // 
-            this.btnreject.BackColor = System.Drawing.Color.White;
+            this.btnreject.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.btnreject.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnreject.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.btnreject.Location = new System.Drawing.Point(619, 413);
+            this.btnreject.ForeColor = System.Drawing.SystemColors.Window;
+            this.btnreject.Location = new System.Drawing.Point(613, 406);
             this.btnreject.Name = "btnreject";
-            this.btnreject.Size = new System.Drawing.Size(133, 57);
+            this.btnreject.Size = new System.Drawing.Size(127, 42);
             this.btnreject.TabIndex = 61;
             this.btnreject.Text = "Reject";
             this.btnreject.UseVisualStyleBackColor = false;
             // 
             // btnApprove
             // 
-            this.btnApprove.BackColor = System.Drawing.Color.White;
+            this.btnApprove.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(76)))), ((int)(((byte)(205)))));
             this.btnApprove.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnApprove.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.btnApprove.Location = new System.Drawing.Point(339, 413);
+            this.btnApprove.ForeColor = System.Drawing.SystemColors.Window;
+            this.btnApprove.Location = new System.Drawing.Point(423, 406);
             this.btnApprove.Name = "btnApprove";
-            this.btnApprove.Size = new System.Drawing.Size(133, 57);
+            this.btnApprove.Size = new System.Drawing.Size(127, 42);
             this.btnApprove.TabIndex = 59;
             this.btnApprove.Text = "Approve";
             this.btnApprove.UseVisualStyleBackColor = false;
@@ -109,12 +112,47 @@
             this.btnBack.UseVisualStyleBackColor = false;
             this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
+            // btnView
+            // 
+            this.btnView.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(76)))), ((int)(((byte)(205)))));
+            this.btnView.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnView.ForeColor = System.Drawing.SystemColors.Window;
+            this.btnView.Location = new System.Drawing.Point(874, 399);
+            this.btnView.Name = "btnView";
+            this.btnView.Size = new System.Drawing.Size(125, 49);
+            this.btnView.TabIndex = 70;
+            this.btnView.Text = "View All";
+            this.btnView.UseVisualStyleBackColor = false;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(97, 391);
+            this.label2.Margin = new System.Windows.Forms.Padding(0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(100, 20);
+            this.label2.TabIndex = 72;
+            this.label2.Text = "EmployeeID:";
+            // 
+            // txtEmpID
+            // 
+            this.txtEmpID.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEmpID.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.txtEmpID.Location = new System.Drawing.Point(106, 414);
+            this.txtEmpID.Name = "txtEmpID";
+            this.txtEmpID.Size = new System.Drawing.Size(229, 27);
+            this.txtEmpID.TabIndex = 71;
+            // 
             // ManageLeaves
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(221)))), ((int)(((byte)(255)))));
-            this.ClientSize = new System.Drawing.Size(1078, 531);
+            this.ClientSize = new System.Drawing.Size(1080, 516);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.txtEmpID);
+            this.Controls.Add(this.btnView);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.dataGridDefineR);
             this.Controls.Add(this.btnBack);
@@ -136,5 +174,8 @@
         private System.Windows.Forms.Button btnApprove;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button btnView;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox txtEmpID;
     }
 }
