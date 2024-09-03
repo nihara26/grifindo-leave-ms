@@ -44,6 +44,7 @@
             this.label7 = new System.Windows.Forms.Label();
             this.numericShortL = new System.Windows.Forms.NumericUpDown();
             this.label4 = new System.Windows.Forms.Label();
+            this.btnSearch = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.numericAnnaulL)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericCasualL)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericShortL)).BeginInit();
@@ -53,7 +54,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(104, 239);
+            this.label2.Location = new System.Drawing.Point(106, 239);
             this.label2.Margin = new System.Windows.Forms.Padding(0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(83, 20);
@@ -62,21 +63,22 @@
             // 
             // btnDefineL
             // 
-            this.btnDefineL.BackColor = System.Drawing.Color.White;
-            this.btnDefineL.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDefineL.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.btnDefineL.Location = new System.Drawing.Point(323, 464);
+            this.btnDefineL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(76)))), ((int)(((byte)(205)))));
+            this.btnDefineL.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDefineL.ForeColor = System.Drawing.SystemColors.Window;
+            this.btnDefineL.Location = new System.Drawing.Point(333, 421);
             this.btnDefineL.Name = "btnDefineL";
-            this.btnDefineL.Size = new System.Drawing.Size(147, 48);
+            this.btnDefineL.Size = new System.Drawing.Size(149, 53);
             this.btnDefineL.TabIndex = 40;
             this.btnDefineL.Text = "Define Leaves";
             this.btnDefineL.UseVisualStyleBackColor = false;
+            this.btnDefineL.Click += new System.EventHandler(this.btnDefineL_Click);
             // 
             // txtyear
             // 
             this.txtyear.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtyear.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.txtyear.Location = new System.Drawing.Point(113, 262);
+            this.txtyear.Location = new System.Drawing.Point(115, 262);
             this.txtyear.Name = "txtyear";
             this.txtyear.Size = new System.Drawing.Size(229, 27);
             this.txtyear.TabIndex = 35;
@@ -85,7 +87,7 @@
             // 
             this.txtEmpID.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtEmpID.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.txtEmpID.Location = new System.Drawing.Point(108, 169);
+            this.txtEmpID.Location = new System.Drawing.Point(115, 146);
             this.txtEmpID.Name = "txtEmpID";
             this.txtEmpID.Size = new System.Drawing.Size(229, 27);
             this.txtEmpID.TabIndex = 33;
@@ -104,16 +106,16 @@
             // numericAnnaulL
             // 
             this.numericAnnaulL.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericAnnaulL.Location = new System.Drawing.Point(464, 221);
+            this.numericAnnaulL.Location = new System.Drawing.Point(466, 221);
             this.numericAnnaulL.Name = "numericAnnaulL";
-            this.numericAnnaulL.Size = new System.Drawing.Size(195, 27);
+            this.numericAnnaulL.Size = new System.Drawing.Size(210, 27);
             this.numericAnnaulL.TabIndex = 49;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(460, 198);
+            this.label5.Location = new System.Drawing.Point(462, 198);
             this.label5.Margin = new System.Windows.Forms.Padding(0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(108, 20);
@@ -124,7 +126,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(460, 263);
+            this.label3.Location = new System.Drawing.Point(462, 263);
             this.label3.Margin = new System.Windows.Forms.Padding(0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(104, 20);
@@ -134,16 +136,16 @@
             // numericCasualL
             // 
             this.numericCasualL.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericCasualL.Location = new System.Drawing.Point(464, 286);
+            this.numericCasualL.Location = new System.Drawing.Point(466, 286);
             this.numericCasualL.Name = "numericCasualL";
-            this.numericCasualL.Size = new System.Drawing.Size(195, 27);
+            this.numericCasualL.Size = new System.Drawing.Size(210, 27);
             this.numericCasualL.TabIndex = 51;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(104, 327);
+            this.label6.Location = new System.Drawing.Point(106, 327);
             this.label6.Margin = new System.Windows.Forms.Padding(0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(100, 20);
@@ -154,7 +156,7 @@
             // 
             this.txtmonth.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtmonth.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.txtmonth.Location = new System.Drawing.Point(113, 350);
+            this.txtmonth.Location = new System.Drawing.Point(115, 350);
             this.txtmonth.Name = "txtmonth";
             this.txtmonth.Size = new System.Drawing.Size(229, 27);
             this.txtmonth.TabIndex = 53;
@@ -177,7 +179,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(460, 328);
+            this.label7.Location = new System.Drawing.Point(462, 328);
             this.label7.Margin = new System.Windows.Forms.Padding(0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(98, 20);
@@ -187,28 +189,42 @@
             // numericShortL
             // 
             this.numericShortL.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericShortL.Location = new System.Drawing.Point(464, 351);
+            this.numericShortL.Location = new System.Drawing.Point(466, 351);
             this.numericShortL.Name = "numericShortL";
-            this.numericShortL.Size = new System.Drawing.Size(195, 27);
+            this.numericShortL.Size = new System.Drawing.Size(210, 27);
             this.numericShortL.TabIndex = 55;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(104, 146);
+            this.label4.Location = new System.Drawing.Point(106, 123);
             this.label4.Margin = new System.Windows.Forms.Padding(0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(100, 20);
             this.label4.TabIndex = 73;
             this.label4.Text = "EmployeeID:";
             // 
+            // btnSearch
+            // 
+            this.btnSearch.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(76)))), ((int)(((byte)(205)))));
+            this.btnSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSearch.ForeColor = System.Drawing.SystemColors.Window;
+            this.btnSearch.Location = new System.Drawing.Point(357, 142);
+            this.btnSearch.Name = "btnSearch";
+            this.btnSearch.Size = new System.Drawing.Size(102, 34);
+            this.btnSearch.TabIndex = 74;
+            this.btnSearch.Text = "Search";
+            this.btnSearch.UseVisualStyleBackColor = false;
+            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
+            // 
             // DefineLeaves
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(221)))), ((int)(((byte)(255)))));
-            this.ClientSize = new System.Drawing.Size(819, 547);
+            this.ClientSize = new System.Drawing.Size(819, 509);
+            this.Controls.Add(this.btnSearch);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.numericShortL);
@@ -224,6 +240,7 @@
             this.Controls.Add(this.txtEmpID);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnBack);
+            this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Name = "DefineLeaves";
             this.Text = "DefineLeaves";
             ((System.ComponentModel.ISupportInitialize)(this.numericAnnaulL)).EndInit();
@@ -251,5 +268,6 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.NumericUpDown numericShortL;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button btnSearch;
     }
 }
