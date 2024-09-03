@@ -30,10 +30,9 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DefineLeaves));
             this.label2 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.btnDefineL = new System.Windows.Forms.Button();
             this.txtyear = new System.Windows.Forms.TextBox();
-            this.txtsearch = new System.Windows.Forms.TextBox();
+            this.txtEmpID = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.numericAnnaulL = new System.Windows.Forms.NumericUpDown();
             this.label5 = new System.Windows.Forms.Label();
@@ -44,6 +43,7 @@
             this.btnBack = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.numericShortL = new System.Windows.Forms.NumericUpDown();
+            this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.numericAnnaulL)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericCasualL)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericShortL)).BeginInit();
@@ -59,17 +59,6 @@
             this.label2.Size = new System.Drawing.Size(83, 20);
             this.label2.TabIndex = 42;
             this.label2.Text = "Enter Year";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(104, 146);
-            this.label4.Margin = new System.Windows.Forms.Padding(0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(120, 20);
-            this.label4.TabIndex = 41;
-            this.label4.Text = "Search Emp.No";
             // 
             // btnDefineL
             // 
@@ -92,20 +81,20 @@
             this.txtyear.Size = new System.Drawing.Size(229, 27);
             this.txtyear.TabIndex = 35;
             // 
-            // txtsearch
+            // txtEmpID
             // 
-            this.txtsearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtsearch.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.txtsearch.Location = new System.Drawing.Point(108, 169);
-            this.txtsearch.Name = "txtsearch";
-            this.txtsearch.Size = new System.Drawing.Size(229, 27);
-            this.txtsearch.TabIndex = 33;
+            this.txtEmpID.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEmpID.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.txtEmpID.Location = new System.Drawing.Point(108, 169);
+            this.txtEmpID.Name = "txtEmpID";
+            this.txtEmpID.Size = new System.Drawing.Size(229, 27);
+            this.txtEmpID.TabIndex = 33;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(327, 29);
+            this.label1.Location = new System.Drawing.Point(328, 43);
             this.label1.Margin = new System.Windows.Forms.Padding(0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(154, 27);
@@ -203,12 +192,24 @@
             this.numericShortL.Size = new System.Drawing.Size(195, 27);
             this.numericShortL.TabIndex = 55;
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(104, 146);
+            this.label4.Margin = new System.Windows.Forms.Padding(0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(100, 20);
+            this.label4.TabIndex = 73;
+            this.label4.Text = "EmployeeID:";
+            // 
             // DefineLeaves
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(221)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(819, 547);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.numericShortL);
             this.Controls.Add(this.label6);
@@ -218,10 +219,9 @@
             this.Controls.Add(this.label5);
             this.Controls.Add(this.numericAnnaulL);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.label4);
             this.Controls.Add(this.btnDefineL);
             this.Controls.Add(this.txtyear);
-            this.Controls.Add(this.txtsearch);
+            this.Controls.Add(this.txtEmpID);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnBack);
             this.Name = "DefineLeaves";
@@ -238,10 +238,9 @@
 
         private System.Windows.Forms.Button btnBack;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button btnDefineL;
         private System.Windows.Forms.TextBox txtyear;
-        private System.Windows.Forms.TextBox txtsearch;
+        private System.Windows.Forms.TextBox txtEmpID;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.NumericUpDown numericAnnaulL;
         private System.Windows.Forms.Label label5;
@@ -251,5 +250,6 @@
         private System.Windows.Forms.TextBox txtmonth;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.NumericUpDown numericShortL;
+        private System.Windows.Forms.Label label4;
     }
 }

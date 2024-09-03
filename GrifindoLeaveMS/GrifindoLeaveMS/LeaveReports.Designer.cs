@@ -68,7 +68,7 @@
             this.dataGridDefineR.BackgroundColor = System.Drawing.SystemColors.ControlLight;
             this.dataGridDefineR.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.dataGridDefineR.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridDefineR.Location = new System.Drawing.Point(96, 333);
+            this.dataGridDefineR.Location = new System.Drawing.Point(96, 302);
             this.dataGridDefineR.Name = "dataGridDefineR";
             this.dataGridDefineR.RowHeadersWidth = 51;
             this.dataGridDefineR.RowTemplate.Height = 24;
@@ -79,7 +79,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(92, 209);
+            this.label5.Location = new System.Drawing.Point(92, 178);
             this.label5.Margin = new System.Windows.Forms.Padding(0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(82, 20);
@@ -89,7 +89,7 @@
             // TimePickerStartLR
             // 
             this.TimePickerStartLR.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TimePickerStartLR.Location = new System.Drawing.Point(96, 232);
+            this.TimePickerStartLR.Location = new System.Drawing.Point(96, 201);
             this.TimePickerStartLR.Name = "TimePickerStartLR";
             this.TimePickerStartLR.Size = new System.Drawing.Size(229, 22);
             this.TimePickerStartLR.TabIndex = 58;
@@ -109,7 +109,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(420, 209);
+            this.label2.Location = new System.Drawing.Point(420, 178);
             this.label2.Margin = new System.Windows.Forms.Padding(0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(74, 20);
@@ -119,7 +119,7 @@
             // TimePickerEndDateLR
             // 
             this.TimePickerEndDateLR.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TimePickerEndDateLR.Location = new System.Drawing.Point(424, 232);
+            this.TimePickerEndDateLR.Location = new System.Drawing.Point(424, 201);
             this.TimePickerEndDateLR.Name = "TimePickerEndDateLR";
             this.TimePickerEndDateLR.Size = new System.Drawing.Size(229, 22);
             this.TimePickerEndDateLR.TabIndex = 66;
@@ -128,7 +128,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(92, 310);
+            this.label3.Location = new System.Drawing.Point(92, 279);
             this.label3.Margin = new System.Windows.Forms.Padding(0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(152, 20);
@@ -151,12 +151,12 @@
             // 
             // btnViewAll
             // 
-            this.btnViewAll.BackColor = System.Drawing.Color.White;
+            this.btnViewAll.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(76)))), ((int)(((byte)(205)))));
             this.btnViewAll.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnViewAll.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.btnViewAll.Location = new System.Drawing.Point(808, 260);
+            this.btnViewAll.ForeColor = System.Drawing.SystemColors.Window;
+            this.btnViewAll.Location = new System.Drawing.Point(869, 241);
             this.btnViewAll.Name = "btnViewAll";
-            this.btnViewAll.Size = new System.Drawing.Size(147, 48);
+            this.btnViewAll.Size = new System.Drawing.Size(121, 42);
             this.btnViewAll.TabIndex = 69;
             this.btnViewAll.Text = "View All";
             this.btnViewAll.UseVisualStyleBackColor = false;
@@ -166,7 +166,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(221)))), ((int)(((byte)(255)))));
-            this.ClientSize = new System.Drawing.Size(1044, 582);
+            this.ClientSize = new System.Drawing.Size(1044, 554);
             this.Controls.Add(this.btnViewAll);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
