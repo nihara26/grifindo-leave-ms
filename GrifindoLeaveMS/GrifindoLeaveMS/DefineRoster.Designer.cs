@@ -62,9 +62,9 @@
             this.btnDelete.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(76)))), ((int)(((byte)(205)))));
             this.btnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDelete.ForeColor = System.Drawing.SystemColors.Window;
-            this.btnDelete.Location = new System.Drawing.Point(591, 283);
+            this.btnDelete.Location = new System.Drawing.Point(605, 283);
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(147, 48);
+            this.btnDelete.Size = new System.Drawing.Size(133, 50);
             this.btnDelete.TabIndex = 48;
             this.btnDelete.Text = "Update Shift";
             this.btnDelete.UseVisualStyleBackColor = false;
@@ -85,9 +85,9 @@
             this.btnAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(76)))), ((int)(((byte)(205)))));
             this.btnAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAdd.ForeColor = System.Drawing.SystemColors.Window;
-            this.btnAdd.Location = new System.Drawing.Point(306, 283);
+            this.btnAdd.Location = new System.Drawing.Point(320, 283);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(147, 48);
+            this.btnAdd.Size = new System.Drawing.Size(133, 50);
             this.btnAdd.TabIndex = 40;
             this.btnAdd.Text = "Add Shift";
             this.btnAdd.UseVisualStyleBackColor = false;
