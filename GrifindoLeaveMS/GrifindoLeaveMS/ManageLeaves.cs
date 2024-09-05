@@ -42,8 +42,8 @@ namespace GrifindoLeaveMS
                 // Check if the clicked cell is within a valid row
                 if (e.RowIndex >= 0 && dataGridDefineR.SelectedRows.Count > 0)
                 {
-                    // Populate EmployeeID field
-                    txtEmpID.Text = dataGridDefineR.SelectedRows[0].Cells["EmployeeID"].Value.ToString();
+                    // Use column index to get EmployeeID, assuming EmployeeID is in the first column (index 0)
+                    txtEmpID.Text = dataGridDefineR.SelectedRows[0].Cells[0].Value.ToString();
                 }
                 else
                 {
