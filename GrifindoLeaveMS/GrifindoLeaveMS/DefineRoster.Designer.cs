@@ -28,11 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DefineRoster));
             this.dataGridDefineR = new System.Windows.Forms.DataGridView();
-            this.btnDelete = new System.Windows.Forms.Button();
+            this.employeeIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.shiftDateDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.startTimeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.endTimeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.shiftRosterBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.grifindoLeaveMSDataSet3 = new GrifindoLeaveMS.GrifindoLeaveMSDataSet3();
+            this.btnUpdateShift = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
-            this.btnAdd = new System.Windows.Forms.Button();
+            this.btnAddShift = new System.Windows.Forms.Button();
             this.datePickerDOB = new System.Windows.Forms.DateTimePicker();
             this.label1 = new System.Windows.Forms.Label();
             this.txtEmpID = new System.Windows.Forms.TextBox();
@@ -42,32 +49,87 @@
             this.mtbStartTimeDR = new System.Windows.Forms.MaskedTextBox();
             this.mtbEndTimeDR = new System.Windows.Forms.MaskedTextBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.shiftRosterTableAdapter = new GrifindoLeaveMS.GrifindoLeaveMSDataSet3TableAdapters.ShiftRosterTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridDefineR)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.shiftRosterBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grifindoLeaveMSDataSet3)).BeginInit();
             this.SuspendLayout();
             // 
             // dataGridDefineR
             // 
+            this.dataGridDefineR.AutoGenerateColumns = false;
             this.dataGridDefineR.BackgroundColor = System.Drawing.SystemColors.ControlLight;
             this.dataGridDefineR.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.dataGridDefineR.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridDefineR.Location = new System.Drawing.Point(93, 351);
+            this.dataGridDefineR.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.employeeIDDataGridViewTextBoxColumn,
+            this.shiftDateDataGridViewTextBoxColumn,
+            this.startTimeDataGridViewTextBoxColumn,
+            this.endTimeDataGridViewTextBoxColumn});
+            this.dataGridDefineR.DataSource = this.shiftRosterBindingSource;
+            this.dataGridDefineR.Location = new System.Drawing.Point(174, 339);
             this.dataGridDefineR.Name = "dataGridDefineR";
             this.dataGridDefineR.RowHeadersWidth = 51;
             this.dataGridDefineR.RowTemplate.Height = 24;
-            this.dataGridDefineR.Size = new System.Drawing.Size(895, 147);
+            this.dataGridDefineR.Size = new System.Drawing.Size(737, 147);
             this.dataGridDefineR.TabIndex = 50;
+            this.dataGridDefineR.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridDefineR_CellContentClick);
+            this.dataGridDefineR.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridDefineR_CellContentClick);
             // 
-            // btnDelete
+            // employeeIDDataGridViewTextBoxColumn
             // 
-            this.btnDelete.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(76)))), ((int)(((byte)(205)))));
-            this.btnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDelete.ForeColor = System.Drawing.SystemColors.Window;
-            this.btnDelete.Location = new System.Drawing.Point(605, 283);
-            this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(133, 50);
-            this.btnDelete.TabIndex = 48;
-            this.btnDelete.Text = "Update Shift";
-            this.btnDelete.UseVisualStyleBackColor = false;
+            this.employeeIDDataGridViewTextBoxColumn.DataPropertyName = "EmployeeID";
+            this.employeeIDDataGridViewTextBoxColumn.HeaderText = "EmployeeID";
+            this.employeeIDDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.employeeIDDataGridViewTextBoxColumn.Name = "employeeIDDataGridViewTextBoxColumn";
+            this.employeeIDDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // shiftDateDataGridViewTextBoxColumn
+            // 
+            this.shiftDateDataGridViewTextBoxColumn.DataPropertyName = "ShiftDate";
+            this.shiftDateDataGridViewTextBoxColumn.HeaderText = "ShiftDate";
+            this.shiftDateDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.shiftDateDataGridViewTextBoxColumn.Name = "shiftDateDataGridViewTextBoxColumn";
+            this.shiftDateDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // startTimeDataGridViewTextBoxColumn
+            // 
+            this.startTimeDataGridViewTextBoxColumn.DataPropertyName = "StartTime";
+            this.startTimeDataGridViewTextBoxColumn.HeaderText = "StartTime";
+            this.startTimeDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.startTimeDataGridViewTextBoxColumn.Name = "startTimeDataGridViewTextBoxColumn";
+            this.startTimeDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // endTimeDataGridViewTextBoxColumn
+            // 
+            this.endTimeDataGridViewTextBoxColumn.DataPropertyName = "EndTime";
+            this.endTimeDataGridViewTextBoxColumn.HeaderText = "EndTime";
+            this.endTimeDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.endTimeDataGridViewTextBoxColumn.Name = "endTimeDataGridViewTextBoxColumn";
+            this.endTimeDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // shiftRosterBindingSource
+            // 
+            this.shiftRosterBindingSource.DataMember = "ShiftRoster";
+            this.shiftRosterBindingSource.DataSource = this.grifindoLeaveMSDataSet3;
+            // 
+            // grifindoLeaveMSDataSet3
+            // 
+            this.grifindoLeaveMSDataSet3.DataSetName = "GrifindoLeaveMSDataSet3";
+            this.grifindoLeaveMSDataSet3.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // btnUpdateShift
+            // 
+            this.btnUpdateShift.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(76)))), ((int)(((byte)(205)))));
+            this.btnUpdateShift.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUpdateShift.ForeColor = System.Drawing.SystemColors.Window;
+            this.btnUpdateShift.Location = new System.Drawing.Point(602, 274);
+            this.btnUpdateShift.Name = "btnUpdateShift";
+            this.btnUpdateShift.Size = new System.Drawing.Size(133, 50);
+            this.btnUpdateShift.TabIndex = 48;
+            this.btnUpdateShift.Text = "Update Shift";
+            this.btnUpdateShift.UseVisualStyleBackColor = false;
+            this.btnUpdateShift.Click += new System.EventHandler(this.btnUpdateShift_Click);
             // 
             // label5
             // 
@@ -80,17 +142,18 @@
             this.label5.TabIndex = 44;
             this.label5.Text = "Date";
             // 
-            // btnAdd
+            // btnAddShift
             // 
-            this.btnAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(76)))), ((int)(((byte)(205)))));
-            this.btnAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAdd.ForeColor = System.Drawing.SystemColors.Window;
-            this.btnAdd.Location = new System.Drawing.Point(320, 283);
-            this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(133, 50);
-            this.btnAdd.TabIndex = 40;
-            this.btnAdd.Text = "Add Shift";
-            this.btnAdd.UseVisualStyleBackColor = false;
+            this.btnAddShift.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(76)))), ((int)(((byte)(205)))));
+            this.btnAddShift.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddShift.ForeColor = System.Drawing.SystemColors.Window;
+            this.btnAddShift.Location = new System.Drawing.Point(326, 274);
+            this.btnAddShift.Name = "btnAddShift";
+            this.btnAddShift.Size = new System.Drawing.Size(133, 50);
+            this.btnAddShift.TabIndex = 40;
+            this.btnAddShift.Text = "Add Shift";
+            this.btnAddShift.UseVisualStyleBackColor = false;
+            this.btnAddShift.Click += new System.EventHandler(this.btnAddShift_Click);
             // 
             // datePickerDOB
             // 
@@ -104,7 +167,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(432, 43);
+            this.label1.Location = new System.Drawing.Point(461, 48);
             this.label1.Margin = new System.Windows.Forms.Padding(0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(150, 27);
@@ -183,6 +246,10 @@
             this.label4.TabIndex = 73;
             this.label4.Text = "EmployeeID:";
             // 
+            // shiftRosterTableAdapter
+            // 
+            this.shiftRosterTableAdapter.ClearBeforeFill = true;
+            // 
             // DefineRoster
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -197,14 +264,17 @@
             this.Controls.Add(this.txtEmpID);
             this.Controls.Add(this.dataGridDefineR);
             this.Controls.Add(this.btnBack);
-            this.Controls.Add(this.btnDelete);
+            this.Controls.Add(this.btnUpdateShift);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.btnAdd);
+            this.Controls.Add(this.btnAddShift);
             this.Controls.Add(this.datePickerDOB);
             this.Controls.Add(this.label1);
             this.Name = "DefineRoster";
             this.Text = "DefineRoster";
+            this.Load += new System.EventHandler(this.DefineRoster_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridDefineR)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.shiftRosterBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grifindoLeaveMSDataSet3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -214,9 +284,9 @@
 
         private System.Windows.Forms.DataGridView dataGridDefineR;
         private System.Windows.Forms.Button btnBack;
-        private System.Windows.Forms.Button btnDelete;
+        private System.Windows.Forms.Button btnUpdateShift;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Button btnAdd;
+        private System.Windows.Forms.Button btnAddShift;
         private System.Windows.Forms.DateTimePicker datePickerDOB;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtEmpID;
@@ -225,5 +295,12 @@
         private System.Windows.Forms.MaskedTextBox mtbStartTimeDR;
         private System.Windows.Forms.MaskedTextBox mtbEndTimeDR;
         private System.Windows.Forms.Label label4;
+        private GrifindoLeaveMSDataSet3 grifindoLeaveMSDataSet3;
+        private System.Windows.Forms.BindingSource shiftRosterBindingSource;
+        private GrifindoLeaveMSDataSet3TableAdapters.ShiftRosterTableAdapter shiftRosterTableAdapter;
+        private System.Windows.Forms.DataGridViewTextBoxColumn employeeIDDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn shiftDateDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn startTimeDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn endTimeDataGridViewTextBoxColumn;
     }
 }

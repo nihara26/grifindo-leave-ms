@@ -16,7 +16,7 @@ namespace GrifindoLeaveMS
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new A_Dashboard());
+            Application.Run(new UserLogin());
         }
     }
 }
