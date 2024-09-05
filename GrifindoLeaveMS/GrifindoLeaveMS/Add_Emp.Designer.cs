@@ -142,7 +142,7 @@
             this.btnAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(76)))), ((int)(((byte)(205)))));
             this.btnAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAdd.ForeColor = System.Drawing.SystemColors.Window;
-            this.btnAdd.Location = new System.Drawing.Point(381, 336);
+            this.btnAdd.Location = new System.Drawing.Point(367, 333);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(100, 44);
             this.btnAdd.TabIndex = 21;
@@ -232,7 +232,7 @@
             this.btnDelete.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.btnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDelete.ForeColor = System.Drawing.SystemColors.Window;
-            this.btnDelete.Location = new System.Drawing.Point(654, 336);
+            this.btnDelete.Location = new System.Drawing.Point(640, 333);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(100, 44);
             this.btnDelete.TabIndex = 29;
@@ -259,7 +259,7 @@
             this.dataGridAddEmp.Name = "dataGridAddEmp";
             this.dataGridAddEmp.RowHeadersWidth = 51;
             this.dataGridAddEmp.RowTemplate.Height = 24;
-            this.dataGridAddEmp.Size = new System.Drawing.Size(950, 187);
+            this.dataGridAddEmp.Size = new System.Drawing.Size(960, 187);
             this.dataGridAddEmp.TabIndex = 31;
             this.dataGridAddEmp.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridAddEmp_CellContentClick);
             this.dataGridAddEmp.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridAddEmp_CellContentClick);
@@ -350,7 +350,7 @@
             this.btnView.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(76)))), ((int)(((byte)(205)))));
             this.btnView.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnView.ForeColor = System.Drawing.SystemColors.Window;
-            this.btnView.Location = new System.Drawing.Point(917, 378);
+            this.btnView.Location = new System.Drawing.Point(927, 369);
             this.btnView.Name = "btnView";
             this.btnView.Size = new System.Drawing.Size(99, 37);
             this.btnView.TabIndex = 32;
@@ -367,7 +367,7 @@
             this.btnUpdate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(76)))), ((int)(((byte)(205)))));
             this.btnUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUpdate.ForeColor = System.Drawing.SystemColors.Window;
-            this.btnUpdate.Location = new System.Drawing.Point(520, 336);
+            this.btnUpdate.Location = new System.Drawing.Point(506, 333);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(100, 44);
             this.btnUpdate.TabIndex = 33;
@@ -380,7 +380,7 @@
             this.btnClear.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(76)))), ((int)(((byte)(205)))));
             this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClear.ForeColor = System.Drawing.SystemColors.Window;
-            this.btnClear.Location = new System.Drawing.Point(783, 336);
+            this.btnClear.Location = new System.Drawing.Point(769, 333);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(100, 44);
             this.btnClear.TabIndex = 34;
@@ -393,7 +393,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(221)))), ((int)(((byte)(255)))));
-            this.ClientSize = new System.Drawing.Size(1048, 630);
+            this.ClientSize = new System.Drawing.Size(1062, 630);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.btnView);
