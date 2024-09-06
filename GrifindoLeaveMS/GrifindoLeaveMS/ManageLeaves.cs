@@ -70,10 +70,10 @@ namespace GrifindoLeaveMS
 
                 con.Open();
 
-                // Directly update the Status in EApplyLeave table
-                string update_query = @"UPDATE EApplyLeave 
-                                SET Status = 'Approved' 
-                                WHERE EmployeeID = @EmployeeID;";
+                // Update query to approve the leave
+                string update_query = @"UPDATE LeaveHistory 
+                                SET Status = 'Approved', ActionDate = GETDATE() 
+                                WHERE EmployeeID = @EmployeeID AND Status = 'Pending';";
                 using (SqlCommand cmd = new SqlCommand(update_query, con))
                 {
                     cmd.Parameters.AddWithValue("@EmployeeID", EmployeeID);
@@ -85,7 +85,7 @@ namespace GrifindoLeaveMS
                     }
                     else
                     {
-                        MessageBox.Show("No leave records found for this employee.", "No Leaves Found", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        MessageBox.Show("No pending leaves found for this employee.", "No Pending Leaves", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     }
                 }
 
@@ -111,10 +111,10 @@ namespace GrifindoLeaveMS
 
                 con.Open();
 
-                // Directly update the Status in EApplyLeave table
-                string update_query = @"UPDATE EApplyLeave 
-                                SET Status = 'Rejected' 
-                                WHERE EmployeeID = @EmployeeID;";
+                // Update query to reject the leave
+                string update_query = @"UPDATE LeaveHistory 
+                                SET Status = 'Rejected', ActionDate = GETDATE() 
+                                WHERE EmployeeID = @EmployeeID AND Status = 'Pending';";
                 using (SqlCommand cmd = new SqlCommand(update_query, con))
                 {
                     cmd.Parameters.AddWithValue("@EmployeeID", EmployeeID);
@@ -126,7 +126,7 @@ namespace GrifindoLeaveMS
                     }
                     else
                     {
-                        MessageBox.Show("No leave records found for this employee.", "No Leaves Found", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        MessageBox.Show("No pending leaves found for this employee.", "No Pending Leaves", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     }
                 }
 
